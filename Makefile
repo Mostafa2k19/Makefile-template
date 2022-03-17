@@ -7,13 +7,13 @@ TARGET = $(BINDIR)/main
 
 
 ###### complier set-up ######
-CC = clang
+CC = gcc
 CFLAGS = -Wextra
-CXX = clang++
+CXX = g++
 CXXFLAGS = $(CFLAGS)
-LD = clang++
+LD = g++
 LDFLAGS = $(CXXFLAGS)
-DEBUGGER = lldb
+DEBUGGER = gdb
 
 
 MKDIR = mkdir -p
